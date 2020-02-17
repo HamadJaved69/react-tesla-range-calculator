@@ -1,22 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>React</code> Tesla Calculator
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://hamadjaved69.github.io"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check Portfolio
         </a>
       </header>
     </div>
