@@ -1,24 +1,17 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
+import TeslaBattery from './containers/TeslaBattery';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          <code>React</code> Tesla Calculator
-        </p>
-        <a
-          className="App-link"
-          href="https://hamadjaved69.github.io"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Portfolio
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <TeslaBattery />
+      </div>
+    );
+  }
 }
 
 export default App;
