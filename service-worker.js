@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-tesla-range-calculator/precache-manifest.74644e8fd6f33a885963941aa147031b.js"
+  "/react-tesla-range-calculator/precache-manifest.a0aa7eb16f1497d7d25e6c541c1a2044.js"
 );
 
 self.addEventListener('message', (event) => {
